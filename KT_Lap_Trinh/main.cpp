@@ -9,6 +9,8 @@
 #include "Pointer_Runner_BT9.h";
 #include "Pointer_Runner_BT10.h";
 
+#include "Recursion_Runner_BT1.h";
+
 #include "String_Runner_BT1.h";
 #include "String_Runner_BT2.h";
 
@@ -26,6 +28,8 @@ void main() {
 	//Pointer_Runner_BT8();
 	//Pointer_Runner_BT9();
 	//Pointer_Runner_BT10();
+
+	Recursion_Runner_BT1();
 
 
 	//String_Runner_BT1();
