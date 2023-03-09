@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Struct">
+      <UniqueIdentifier>{1a45cec9-76e8-4e9b-aa76-3135b03ad34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\String">
+      <UniqueIdentifier>{f215b323-a455-4432-9949-0292d5cb8703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pointer">
+      <UniqueIdentifier>{38bb29cb-e482-40ac-b471-cce3885c1254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Array">
+      <UniqueIdentifier>{048f45bc-4f3d-4647-8a62-0323aea0b5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Recursion">
+      <UniqueIdentifier>{655d8b94-fab5-4c58-a530-d1b1f2e7246c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhanSo.h">
+      <Filter>Header Files\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT1.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT2.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT3.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT4.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT5.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT6.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT7.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT8.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT9.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT10.h">
+      <Filter>Header Files\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct_Runner_BT1.h">
+      <Filter>Header Files\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct_Runner_BT2.h">
+      <Filter>Header Files\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="String_Runner_BT2.h">
+      <Filter>Header Files\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String_Runner_BT1.h">
+      <Filter>Header Files\String</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\BT2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\BT1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
