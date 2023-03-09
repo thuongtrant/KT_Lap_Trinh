@@ -30,6 +30,7 @@
     <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT8.h" />
     <ClInclude Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\Pointer_Runner_BT9.h" />
     <ClInclude Include="PhanSo.h" />
+    <ClInclude Include="Recursion_Runner_BT1.h" />
     <ClInclude Include="Runner.h" />
     <ClInclude Include="String_Runner_BT1.h" />
     <ClInclude Include="String_Runner_BT2.h" />
