@@ -36,12 +36,12 @@ int giaiThua(int a)
 		return a * giaiThua(a - 1);
 }
 //𝑆4 = 1! + 2! + 3! + ⋯ + 𝑛! (n là số nguyên dương)
-int s4(int n)
+int sumGT(int n)
 {
 	if (n == 1)
 		return 1;
 	else
-		return giaiThua(n) + s4(n - 1);
+		return giaiThua(n) + sumGT(n - 1);
 }
 
 void Recursion_Runner_BT1()
@@ -49,10 +49,15 @@ void Recursion_Runner_BT1()
 	Runner("Recursion_Runner_BT1").addDescription("Bai hoc: Recursion").message();
 
 	int n;
+	cout << "Nhap mot so nguyen duong: ";
 	cin >> n; 
-	cout << tong(n);
-	cout << cong(n);
-	cout << s3(n);
-	cout << s4(n);
+	cout << "Tong cac so nguyen duong tu 1 den " << n << " la: ";
+	cout << tong(n) << endl;
+	cout << "Tong cac so nguyen duong tu 1^2 den " << n << "^2 la: ";
+	cout << cong(n) << endl;
+	cout << "Tong cac so nguyen duong tu 1 den 1/" << n << " la: ";
+	cout << s3(n) << endl;
+	cout << "Tong cac so nguyen duong tu 1! den " << n << "! la: ";
+	cout << sumGT(n) << endl;
 	
 }

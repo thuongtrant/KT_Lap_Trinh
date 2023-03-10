@@ -81,6 +81,75 @@
     <ClInclude Include="Recursion_Runner_BT1.h">
       <Filter>Header Files\Recursion</Filter>
     </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT2.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT3.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT5.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT4.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT6.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT7.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT13.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT8_9.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT10.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion_Runner_BT11_12.h">
+      <Filter>Header Files\Recursion</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT1.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT2.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT4.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT3.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT5.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT6.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT10.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT7.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT8.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT9.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT11.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT12.h">
+      <Filter>Header Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct_Runner_BT3.h">
+      <Filter>Header Files\Struct</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

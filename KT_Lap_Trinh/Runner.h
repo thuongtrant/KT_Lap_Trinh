@@ -5,13 +5,14 @@ using namespace std;
 
 class Runner
 {
-private:
+protected:
 	string name;
 	string desc = "";
 public:
 	Runner(string name) {
 		this->name = name;
 	}
+	Runner() {}
 	Runner& addDescription(string desc) {
 		this->desc = desc;
 		return *this;
@@ -22,6 +23,17 @@ public:
 			cout << desc << endl;
 		}
 
+	}
+
+	/**
+	 * Run the application
+	 *
+	 * @return Runner
+	 */
+	static Runner& run() {
+		Runner instance;
+		cout << instance.name << " running..." << endl;
+		return instance;
 	}
 };
 
