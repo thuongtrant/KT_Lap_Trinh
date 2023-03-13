@@ -3,6 +3,36 @@
 #include<cstdlib>
 #include "Runner.h";
 
+struct Array_Pos_BT11 {
+public:
+	int row;
+	int column;
+
+	Array_Pos_BT11(int row, int column) {
+		this->row = row;
+		this->column = column;
+	}
+
+	/**
+	 * Print the position to the console
+	 *
+	 * @return Array_Pos_BT11
+	 */
+	Array_Pos_BT11& print() {
+		cout << "(" << row << ", " << column << ")" << endl;
+		return *this;
+	}
+
+	/**
+	* Check the position is valid
+	*
+	* @return bool
+	*/
+	bool isValid() {
+		return row > -1 || column > -1;
+	}
+};
+
 class  Array_Runner_BT11: public Runner
 {
 private:
@@ -89,26 +119,21 @@ public:
 	 *
 	 * @param int number The given value which you want to find array index
 	 *
-	 * @return int[2]
+	 * @return Array_Pos_BT11
 	 */
-	int* findIndex(int number) const {
-		static int pos[2]; // = int * pos
-
+	Array_Pos_BT11 findIndex(int number) const {
+		
 		for (int i = 0; i < row; i++)
 		{
 			for (int j = 0; j < column; j++)
 			{
 				if (number == arr[i][j])
 				{
-					pos[0] = i;
-					pos[1] = j;
-					return pos;
+					return Array_Pos_BT11(i, j);
 				}
 			}
 		}
-		pos[0] = -1;
-		pos[1] = -1;
-		return pos;
+		return Array_Pos_BT11(-1, -1);
 	}
 
 	/**
@@ -119,7 +144,7 @@ public:
 	 * @return bool
 	 */
 	bool include(int number) {
-		return this->findIndex(number)[0] > -1;
+		return this->findIndex(number).row > -1;
 	}
 
 	/**
@@ -131,23 +156,15 @@ public:
 	 * @return Array_Runner_BT11
 	 */
 	Array_Runner_BT11& swap(int a, int b) {
-		int* posA = this->findIndex(a);
-		int posRowA = *(posA);
-		int posColumnA = *(posA + 1);
+		Array_Pos_BT11 posA = this->findIndex(a);
+		Array_Pos_BT11 posB = this->findIndex(b);
 
-		int* posB = this->findIndex(b);
-		int posRowB = *(posB);
-		int posColumnB = *(posB + 1);
+		cout << a; posA.print();
+		cout << b; posB.print();
 
-		cout << a << " posA = " << posA << "; &posA = " << &posA << "; &posA[0] = " << &posA[0] << "; posA[0] = " << *(posA) << endl;
-		cout << b << " posB = " << posB << "; &posB = " << &posB << "; &posB[0] = " << &posB[0] << "; posB[0] = " << *(posB) << endl;
-
-		cout << a << " = (" << posRowA << ", " << posColumnA << ")" << endl;
-		cout << b << " = (" << posRowB << ", " << posColumnB << ")" << endl;
-
-		if (posRowA > -1 && posColumnB > -1) {
-			arr[posRowA][posColumnA] = b;
-			arr[posRowB][posColumnB] = a;
+		if (posA.isValid() && posB.isValid()) {
+			arr[posA.row][posA.column] = b;
+			arr[posB.row][posB.column] = a;
 		}
 		else {
 			cout << "X/Y not found!" << endl;
