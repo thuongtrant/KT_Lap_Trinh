@@ -87,12 +87,13 @@ public:
 	/**
 	 * Find the index of the given number which is included in the array
 	 *
-	 * @param int number The given number which you want to find
+	 * @param int number The given value which you want to find array index
 	 *
 	 * @return int[2]
 	 */
 	int* findIndex(int number) const {
-		static int pos[2];
+		static int pos[2]; // = int * pos
+
 		for (int i = 0; i < row; i++)
 		{
 			for (int j = 0; j < column; j++)
@@ -131,22 +132,22 @@ public:
 	 */
 	Array_Runner_BT11& swap(int a, int b) {
 		int* posA = this->findIndex(a);
-		int posAx = posA[0];
-		int posAy = posA[1];
+		int posRowA = *(posA);
+		int posColumnA = *(posA + 1);
 
 		int* posB = this->findIndex(b);
-		int posBx = posB[0];
-		int posBy = posB[1];
+		int posRowB = *(posB);
+		int posColumnB = *(posB + 1);
 
+		cout << a << " posA = " << posA << "; &posA = " << &posA << "; &posA[0] = " << &posA[0] << "; posA[0] = " << *(posA) << endl;
+		cout << b << " posB = " << posB << "; &posB = " << &posB << "; &posB[0] = " << &posB[0] << "; posB[0] = " << *(posB) << endl;
 
-		cout << a << " = (" << posAx << ", " << posAy << ")" << endl;
-		cout << b << " = (" << posBx << ", " << posBy << ")" << endl;
+		cout << a << " = (" << posRowA << ", " << posColumnA << ")" << endl;
+		cout << b << " = (" << posRowB << ", " << posColumnB << ")" << endl;
 
-		if (posAx > -1 && posBy > -1) {
-			//arr[posX[0]][posX[1]] = y;
-			//arr[posY[0]][posY[1]] = x;
-			arr[posAx][posBy] = b;
-			arr[posBx][posBy] = a;
+		if (posRowA > -1 && posColumnB > -1) {
+			arr[posRowA][posColumnA] = b;
+			arr[posRowB][posColumnB] = a;
 		}
 		else {
 			cout << "X/Y not found!" << endl;
@@ -187,7 +188,6 @@ public:
 		int number;
 		cout << "Nhap phan tu can tim: "; cin >> number;
 		cout << (instance.include(number) ? "Tim thay!" : "Khong tim thay!") << endl;
-
 
 
 		cout << ":::::: 7d" << endl;
