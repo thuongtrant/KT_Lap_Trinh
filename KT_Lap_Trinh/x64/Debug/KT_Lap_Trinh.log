@@ -40,10 +40,26 @@ D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Tri
 D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(36,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(39,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(40,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\String_Runner_BT2.h(22,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(41,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(42,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\Struct_Runner_BT1.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\String_Runner_BT4.h(8,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(43,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(45,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\Struct_Runner_BT1.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(46,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\Struct_Runner_BT2.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\Struct_Runner_BT2.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(45,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(47,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(48,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\Struct_Runner_BT4.h(68,16): warning C4804: '<': unsafe use of type 'bool' in operation
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\Struct_Runner_BT4.h(70,14): warning C4804: '<': unsafe use of type 'bool' in operation
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(49,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(50,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(51,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(52,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\Struct_Runner_BT8.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(53,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(54,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\KT_Lap_Trinh\main.cpp(56,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
   KT_Lap_Trinh.vcxproj -> D:\Users\ttthu\OneDrive\Documents\Repository\Github\getting-started-c\KT_Lap_Trinh\x64\Debug\KT_Lap_Trinh.exe
