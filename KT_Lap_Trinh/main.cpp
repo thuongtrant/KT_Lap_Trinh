@@ -38,9 +38,20 @@
 
 #include "String_Runner_BT1.h";
 #include "String_Runner_BT2.h";
+#include "String_Runner_BT3.h";
+#include "String_Runner_BT4.h";
+#include "String_Runner_BT5.h";
 
 #include "Struct_Runner_BT1.h";
 #include "Struct_Runner_BT2.h";
+#include "Struct_Runner_BT3.h";
+#include "Struct_Runner_BT4.h";
+#include "Struct_Runner_BT5.h";
+#include "Struct_Runner_BT6.h";
+#include "Struct_Runner_BT7.h";
+#include "Struct_Runner_BT8.h";
+#include "Struct_Runner_BT9.h";
+#include "Struct_Runner_BT10.h";
 
 void main() {
 
@@ -56,7 +67,7 @@ void main() {
 	//Array_Runner_BT10();
 
 	//Array_Runner_BT11::run();
-	Array_Runner_BT12::run();
+	//Array_Runner_BT12::run();
 
 	//Pointer_Runner_BT1();
 	//Pointer_Runner_BT2();
@@ -85,9 +96,18 @@ void main() {
 
 	//String_Runner_BT1();
 	//String_Runner_BT2();
+	//String_Runner_BT3();
+	//String_Runner_BT4();
+	String_Runner_BT5();
 
 	//Struct_Runner_BT1();
 	//Struct_Runner_BT2();
-
-
+	//Struct_Runner_BT3::run();
+	//Struct_Runner_BT4::run();
+	//Struct_Runner_BT5::run();
+	//Struct_Runner_BT6::run();
+	//Struct_Runner_BT7::run();
+	//Struct_Runner_BT8::run();
+	//Struct_Runner_BT9::run();
+	//Struct_Runner_BT10::run();
 }

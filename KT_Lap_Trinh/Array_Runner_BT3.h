@@ -8,7 +8,7 @@ void Array_Runner_BT3()
 {
 	Runner("Array_Runner_BT3").addDescription("Bai hoc: Array").message();
 
-	int arr3[100][100];
+	int arr[100][100];
 	int dong, cot;
 	int vtdmin, vtdmax, vtcmin, vtcmax;
 	int tong = 0;
@@ -27,14 +27,14 @@ void Array_Runner_BT3()
 	{
 		for (int j = 0; j < cot; j++)
 		{
-			cin >> arr3[i][j];
+			cin >> arr[i][j];
 		}
 	}
 	for (int i = 0; i < dong; i++)
 	{
 		for (int j = 0; j < cot; j++)
 		{
-			cout << arr3[i][j] << " ";
+			cout << arr[i][j] << " ";
 		}
 		cout << endl;
 	}
@@ -43,18 +43,18 @@ void Array_Runner_BT3()
 	{
 		for (int j = 0; j < cot; j++)
 		{
-			tong += arr3[i][j];
+			tong += arr[i][j];
 		}
 	}
 	cout << "Tong cac gia tri luu tru trong mang la: " << tong << endl;
-	int min = arr3[0][0];
+	int min = arr[0][0];
 	for (int i = 0; i < dong; i++)
 	{
 		for (int j = 0; j < cot; j++)
 		{
-			if (min > arr3[i][j])
+			if (min > arr[i][j])
 			{
-				min = arr3[i][j];
+				min = arr[i][j];
 				vtdmin = i;
 				vtcmin = j;
 			}
@@ -63,14 +63,14 @@ void Array_Runner_BT3()
 	cout << "Gia tri nho nhat trong mang la: " << min << endl;
 	cout << "Vi tri dong min la: " << vtdmin << endl;
 	cout << "Vi tri cot min la: " << vtcmin << endl;
-	int max = arr3[0][0];
+	int max = arr[0][0];
 	for (int i = 0; i < dong; i++)
 	{
 		for (int j = 0; j < cot; j++)
 		{
-			if (max < arr3[i][j])
+			if (max < arr[i][j])
 			{
-				max = arr3[i][j];
+				max = arr[i][j];
 				vtdmax = i;
 				vtcmax = j;
 			}
