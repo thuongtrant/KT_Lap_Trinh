@@ -180,6 +180,9 @@
     <ClInclude Include="String_Runner_BT5.h">
       <Filter>Header Files\String</Filter>
     </ClInclude>
+    <ClInclude Include="String_Runner_BT6.h">
+      <Filter>Header Files\String</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

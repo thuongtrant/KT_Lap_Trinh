@@ -59,6 +59,7 @@
     <ClInclude Include="String_Runner_BT3.h" />
     <ClInclude Include="String_Runner_BT4.h" />
     <ClInclude Include="String_Runner_BT5.h" />
+    <ClInclude Include="String_Runner_BT6.h" />
     <ClInclude Include="Struct_Runner_BT1.h" />
     <ClInclude Include="Struct_Runner_BT10.h" />
     <ClInclude Include="Struct_Runner_BT2.h" />
