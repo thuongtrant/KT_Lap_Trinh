@@ -42,6 +42,10 @@
 #include "String_Runner_BT4.h";
 #include "String_Runner_BT5.h";
 #include "String_Runner_BT6.h";
+#include "String_Runner_BT7.h";
+#include "String_Runner_BT8.h";
+#include "String_Runner_BT10.h";
+
 
 #include "Struct_Runner_BT1.h";
 #include "Struct_Runner_BT2.h";
@@ -100,7 +104,10 @@ void main() {
 	//String_Runner_BT3();
 	//String_Runner_BT4();
 	//String_Runner_BT5();
-	String_Runner_BT6();
+	//String_Runner_BT6();
+	//String_Runner_BT7();
+	//String_Runner_BT8();
+	String_Runner_BT10();
 
 	//Struct_Runner_BT1();
 	//Struct_Runner_BT2();
