@@ -55,11 +55,15 @@
     <ClInclude Include="Recursion_Runner_BT8_9.h" />
     <ClInclude Include="Runner.h" />
     <ClInclude Include="String_Runner_BT1.h" />
+    <ClInclude Include="String_Runner_BT10.h" />
     <ClInclude Include="String_Runner_BT2.h" />
     <ClInclude Include="String_Runner_BT3.h" />
     <ClInclude Include="String_Runner_BT4.h" />
     <ClInclude Include="String_Runner_BT5.h" />
     <ClInclude Include="String_Runner_BT6.h" />
+    <ClInclude Include="String_Runner_BT7.h" />
+    <ClInclude Include="String_Runner_BT8.h" />
+    <ClInclude Include="String_Runner_BT9.h" />
     <ClInclude Include="Struct_Runner_BT1.h" />
     <ClInclude Include="Struct_Runner_BT10.h" />
     <ClInclude Include="Struct_Runner_BT2.h" />
