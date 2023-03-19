@@ -204,6 +204,12 @@
     <ClInclude Include="String_Runner_BT13.h">
       <Filter>Header Files\String</Filter>
     </ClInclude>
+    <ClInclude Include="String_Runner_BT14.h">
+      <Filter>Header Files\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String_Runner_BT15.h">
+      <Filter>Header Files\String</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
