@@ -30,14 +30,36 @@ void String_Runner_BT1()
 			cout << "Chuoi mot nho hon chuoi hai";
 		else
 			cout << "Chuoi mot lon hon chuoi hai";
-
+	for (int i = 0; i < strlen(s1); i++)
+	{
+		if (i == 0 || isspace(s1[i - 1]))
+		{
+			s1[i] = toupper(s1[i]);
+		}
+		else
+		{
+			s1[i] = tolower(s1[i]);
+		}
+	}
+	cout << "Chuoi thu nhat: " << s1;
+	for (int i = 0; i < strlen(s2); i++)
+	{
+		if (i == 0 || isspace(s2[i - 1]))
+		{
+			s2[i] = toupper(s2[i]);
+		}
+		else
+		{
+			s2[i] = tolower(s2[i]);
+		}
+	}
+	cout << "Chuoi thu nhat: " << s2;
 	s1[0] = toupper(s1[0]);
 	s2[0] = toupper(s2[0]);
 	cout << "Chuoi mot va chuoi hai sau khi chuyen thanh dang in hoa ky tu dau: \n";
 	cout << s1 << endl << s2;
-	
-	//char* strcat(char* s1, const char* s2);
-	/*strcat(s1, s2);
-	cout << s1 << endl;*/
-	
+		//char* strcat(char* s1, const char* s2);
+	/*	strcat(s1, s2);
+		cout << s1 << endl;*/
+		
 }

@@ -48,6 +48,8 @@
 #include "String_Runner_BT11.h";
 #include "String_Runner_BT12.h";
 #include "String_Runner_BT13.h";
+#include "String_Runner_BT14.h";
+#include "String_Runner_BT15.h";
 
 
 #include "Struct_Runner_BT1.h";
@@ -113,7 +115,9 @@ void main() {
 	//String_Runner_BT10();
 	//String_Runner_BT11();
 	//String_Runner_BT12();
-	String_Runner_BT13();
+	//String_Runner_BT13();
+	//String_Runner_BT14();
+	String_Runner_BT15();
 
 	//Struct_Runner_BT1();
 	//Struct_Runner_BT2();
