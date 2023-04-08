@@ -14,9 +14,9 @@ struct Books {
 	Books input()
 	{
 		cout << endl;
-		cout << "Nhap ten sach: "; cin >> nameBooks;
+		cout << "Nhap ten sach: "; cin.getline(nameBooks, 45);
 		cin.ignore();
-		cout << "Nhap ten tac gia: "; cin.getline(nameBooks,45);
+		cout << "Nhap ten tac gia: "; cin.getline(nameAuthor,45);
 		cout << "Nhap ngay thang nam xuat ban: "; cin >> date.day >> date.month >> date.year;
 		return *this;
 	}

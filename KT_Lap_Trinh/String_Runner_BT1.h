@@ -23,13 +23,13 @@ void String_Runner_BT1()
 
 	if (strcmp(s1, s2) == 0)
 	{
-		cout << "Hai chuoi nay bang nhau";
+		cout << "Hai chuoi nay bang nhau\n";
 	}
 	else
 		if (strcmp(s1, s2) < 0)
-			cout << "Chuoi mot nho hon chuoi hai";
+			cout << "Chuoi mot nho hon chuoi hai\n";
 		else
-			cout << "Chuoi mot lon hon chuoi hai";
+			cout << "Chuoi mot lon hon chuoi hai\n";
 	for (int i = 0; i < strlen(s1); i++)
 	{
 		if (i == 0 || isspace(s1[i - 1]))
@@ -53,13 +53,11 @@ void String_Runner_BT1()
 			s2[i] = tolower(s2[i]);
 		}
 	}
-	cout << "Chuoi thu nhat: " << s2;
-	s1[0] = toupper(s1[0]);
-	s2[0] = toupper(s2[0]);
-	cout << "Chuoi mot va chuoi hai sau khi chuyen thanh dang in hoa ky tu dau: \n";
-	cout << s1 << endl << s2;
+	cout << endl;
+	cout << "Chuoi thu hai: " << s2;
+
 		//char* strcat(char* s1, const char* s2);
-	/*	strcat(s1, s2);
-		cout << s1 << endl;*/
+	strcat_s(s1, s2);
+		cout << s1 << endl;
 		
 }

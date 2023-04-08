@@ -63,6 +63,18 @@
 #include "Struct_Runner_BT9.h";
 #include "Struct_Runner_BT10.h";
 
+#include "Fstream_Runner_BT1_2.h";
+#include "Fstream_Runner_BT2.h";
+#include "Fstream_Runner_BT3.h";
+#include "Fstream_Runner_BT4_5.h";
+#include "Fstream_Runner_BT5.h";
+#include "Fstream_Runner_BT6.h";
+#include "Fstream_Runner_BT7.h";
+#include "Fstream_Runner_BT8.h";
+#include "Fstream_Runner_BT9.h";
+#include "Fstream_Runner_BT10.h";
+
+
 void main() {
 
 	//Array_Runner_BT1();
@@ -117,7 +129,7 @@ void main() {
 	//String_Runner_BT12();
 	//String_Runner_BT13();
 	//String_Runner_BT14();
-	String_Runner_BT15();
+	//String_Runner_BT15();
 
 	//Struct_Runner_BT1();
 	//Struct_Runner_BT2();
@@ -125,8 +137,18 @@ void main() {
 	//Struct_Runner_BT4::run();
 	//Struct_Runner_BT5::run();
 	//Struct_Runner_BT6::run();
-	//Struct_Runner_BT7::run();
+	Struct_Runner_BT7::run();
 	//Struct_Runner_BT8::run();
 	//Struct_Runner_BT9::run();
 	//Struct_Runner_BT10::run();
+
+	//Fstream_Runner_BT1_2();
+	//Fstream_Runner_BT2();
+	//Fstream_Runner_BT3();
+	//Fstream_Runner_BT4_5();
+	//Fstream_Runner_BT6();
+	//Fstream_Runner_BT7();
+	//Fstream_Runner_BT8();
+	//Fstream_Runner_BT9();
+	//Fstream_Runner_BT10();
 }

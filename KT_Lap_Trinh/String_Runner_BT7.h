@@ -21,7 +21,7 @@ void String_Runner_BT7()
 	char* location = findString(s1, s2);
 	if (location != NULL )
 	{
-		cout << "Chuoi thu hai xhuat hien trong chuoi mot tai vi tri : " << location - s1;
+		cout << "Chuoi thu hai xuat hien trong chuoi mot tai vi tri : " << location - s1;
 	}
 	else
 	{

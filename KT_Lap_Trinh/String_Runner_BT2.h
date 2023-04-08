@@ -27,5 +27,5 @@ void String_Runner_BT2()
 	string full_name = last_name + " " + first_name;
 
 	// in kết quả ra màn hình
-	cout << full_name << endl;
+	
 }

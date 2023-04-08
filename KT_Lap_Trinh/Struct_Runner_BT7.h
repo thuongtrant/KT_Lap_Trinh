@@ -13,14 +13,11 @@ struct Produce
 	int amount;
 	Produce input()
 	{
-		cin.ignore();
 		cout << "Nhap ma san pham "; cin.getline(code, 10);
-		cin.ignore();
 		cout << "Nhap ten san pham "; getline(cin, name);
-		cin.ignore();
 		cout << "Nhap gia san pham "; cin >> price;
-		cin.ignore();
 		cout << "Nhap so luong ton kho "; cin >> amount;
+		cin.ignore();
 		return *this;
 	}
 	Produce print()
@@ -45,7 +42,7 @@ void printArr(int countProduce, Produce story[45])
 {
 	for (int i = 0; i < countProduce; i++)
 	{
-		cout << "+++ Nhap thong tin cua san pham thu: " << i + 1 << endl;
+		cout << "+++ Thong tin cua san pham thu: " << i + 1 << endl;
 		story[i].print();
 	}
 }
@@ -110,6 +107,7 @@ public:
 		int countProduce;
 		cout << "Nhap so san pham can dien thong tin: ";
 		cin >> countProduce;
+		cin.ignore();
 		inputArr(countProduce, story);
 		printArr(countProduce, story);
 		cout << endl;

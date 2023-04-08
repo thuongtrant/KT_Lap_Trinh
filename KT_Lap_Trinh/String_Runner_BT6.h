@@ -30,7 +30,7 @@ void String_Runner_BT6()
 	cout << "Nhap ngay thang nam (dd-mm-yyyy): ";
 	string date;
 	cin >> date;
-	cout << date << endl;
+	//cout << date << endl;
 	int day = dayOfYear(date);
 	cout << "Ngay " << date << " la ngay thu " << day << " trong nam." << endl;
 }
