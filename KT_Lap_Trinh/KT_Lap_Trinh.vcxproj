@@ -41,6 +41,16 @@
     <ClInclude Include="Array_Runner_BT7.h" />
     <ClInclude Include="Array_Runner_BT8.h" />
     <ClInclude Include="Array_Runner_BT9.h" />
+    <ClInclude Include="Fstream_Runner_BT1_2.h" />
+    <ClInclude Include="Fstream_Runner_BT10.h" />
+    <ClInclude Include="Fstream_Runner_BT2.h" />
+    <ClInclude Include="Fstream_Runner_BT3.h" />
+    <ClInclude Include="Fstream_Runner_BT4_5.h" />
+    <ClInclude Include="Fstream_Runner_BT5.h" />
+    <ClInclude Include="Fstream_Runner_BT6.h" />
+    <ClInclude Include="Fstream_Runner_BT7.h" />
+    <ClInclude Include="Fstream_Runner_BT8.h" />
+    <ClInclude Include="Fstream_Runner_BT9.h" />
     <ClInclude Include="PhanSo.h" />
     <ClInclude Include="Recursion_Runner_BT1.h" />
     <ClInclude Include="Recursion_Runner_BT10.h" />
@@ -84,6 +94,9 @@
     <ClCompile Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\BT1.cpp" />
     <ClCompile Include="..\..\KT_Lap_Trinh_error\KT_Lap_Trinh\BT2.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ReviewArray.cpp" />
+    <ClCompile Include="ReviewPointer.cpp" />
+    <ClCompile Include="ReviewRecursion.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
