@@ -9,13 +9,9 @@ void Fstream_Runner_BT4_5()
 {
 	Runner("Fstream_Runner_BT4_5").addDescription("Bai hoc: Fstream").message();
 	char arr[21];
-	//int n;
-	//cout << "Nhap so phan tu can dung: ";
-	//cin >> n;
-	
 	cout << "Nhap chuoi: ";
-		cin >> arr;
-		char* p = arr;
+	cin >> arr;
+	char* p = arr;
 	ofstream outFile("BT4.txt");
 	if (outFile.is_open())
 	{
@@ -30,13 +26,6 @@ void Fstream_Runner_BT4_5()
 	{
 		cout << "Khong the ghi du lieu vao file.";
 	}
-	//int m;
-	//ifstream inFile;
-	//inFile.open("BT1.txt");
-	//inFile >> m;
-	//inFile.close();
-
-	//cout << "Gia tri doc duoc tu file la: " << m << endl;
 	int dem = 0;
 	char c;
 	ifstream inFile("BT4.txt");

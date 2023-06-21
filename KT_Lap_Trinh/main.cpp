@@ -9,6 +9,7 @@
 #include "Array_Runner_BT9.h";
 #include "Array_Runner_BT10.h";
 #include "Array_Runner_BT11.h";
+#include "Array_Runner_BT11_1.h";
 #include "Array_Runner_BT11.h";
 #include "Array_Runner_BT12.h";
 
@@ -64,10 +65,8 @@
 #include "Struct_Runner_BT10.h";
 
 #include "Fstream_Runner_BT1_2.h";
-#include "Fstream_Runner_BT2.h";
 #include "Fstream_Runner_BT3.h";
 #include "Fstream_Runner_BT4_5.h";
-#include "Fstream_Runner_BT5.h";
 #include "Fstream_Runner_BT6.h";
 #include "Fstream_Runner_BT7.h";
 #include "Fstream_Runner_BT8.h";
@@ -87,6 +86,7 @@ void main() {
 	//Array_Runner_BT8();
 	//Array_Runner_BT9();
 	//Array_Runner_BT10();
+	//Array_Runner_BT11_1();
 
 	//Array_Runner_BT11::run();
 	//Array_Runner_BT12::run();
@@ -137,7 +137,7 @@ void main() {
 	//Struct_Runner_BT4::run();
 	//Struct_Runner_BT5::run();
 	//Struct_Runner_BT6::run();
-	Struct_Runner_BT7::run();
+	//Struct_Runner_BT7::run();
 	//Struct_Runner_BT8::run();
 	//Struct_Runner_BT9::run();
 	//Struct_Runner_BT10::run();
@@ -150,5 +150,5 @@ void main() {
 	//Fstream_Runner_BT7();
 	//Fstream_Runner_BT8();
 	//Fstream_Runner_BT9();
-	//Fstream_Runner_BT10();
+	Fstream_Runner_BT10();
 }

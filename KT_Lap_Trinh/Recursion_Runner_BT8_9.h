@@ -23,6 +23,14 @@ int BIN(int n)
 		a = n % 10;
 	return BIN(n / 10) * 2 + a;
 }
+void chuyenBin(int n, int radix = 2) //chuyển thập phân sang nhị phân
+{
+	if (n > 0)
+	{
+		chuyenBin(n / radix, radix);
+		cout << n % radix;
+	}
+}
 void Recursion_Runner_BT8_9()
 {
 	Runner("Recursion_Runner_BT8_9").addDescription("Bai hoc: Recursion").message();

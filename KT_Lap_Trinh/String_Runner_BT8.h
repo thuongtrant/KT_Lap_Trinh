@@ -14,21 +14,21 @@ void String_Runner_BT8()
         cin.getline(name, 100);
 
         char lastName[50], middleName[50], firstName[50];
-
+        //Tran Thi Thuong
         // Tach ho
-        char* space = strchr(name, ' ');
+        char* space = strchr(name, ' '); // space = Thi Thuong
         if (space != nullptr) {
-            int length = space - name;
-            strncpy_s(lastName, name, length);
+            int length = space - name;   // length = Thi Thuong - Tran Thi Thuong = Tran
+            strncpy_s(lastName, name, length); // Tran
             //lastName[length] = '\0';
             space++;
         }
 
         // Tach chữ lót (nếu có)
-        char* space2 = strchr(space, ' ');
-        if (space2 != nullptr) {
-            int length = space2 - space;
-            strncpy_s(middleName, space, length);
+        char* space2 = strchr(space, ' '); // space2 = Thuong
+        if (space2 != nullptr) {           
+            int length = space2 - space;   // length = Thuong - Thi Thuong = Thi
+            strncpy_s(middleName, space, length); // Thi
             middleName[length] = '\0';
             space2++;
         }

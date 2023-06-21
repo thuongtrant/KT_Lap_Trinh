@@ -216,16 +216,10 @@
     <ClInclude Include="Fstream_Runner_BT1_2.h">
       <Filter>Header Files\Fstream</Filter>
     </ClInclude>
-    <ClInclude Include="Fstream_Runner_BT2.h">
-      <Filter>Header Files\Fstream</Filter>
-    </ClInclude>
     <ClInclude Include="Fstream_Runner_BT3.h">
       <Filter>Header Files\Fstream</Filter>
     </ClInclude>
     <ClInclude Include="Fstream_Runner_BT4_5.h">
-      <Filter>Header Files\Fstream</Filter>
-    </ClInclude>
-    <ClInclude Include="Fstream_Runner_BT5.h">
       <Filter>Header Files\Fstream</Filter>
     </ClInclude>
     <ClInclude Include="Fstream_Runner_BT6.h">
@@ -242,6 +236,9 @@
     </ClInclude>
     <ClInclude Include="Fstream_Runner_BT10.h">
       <Filter>Header Files\Fstream</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Runner_BT11_1.h">
+      <Filter>Header Files\Array</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -261,6 +258,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ReviewPointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dskld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vd_dslkd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
